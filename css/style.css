@@ -1,0 +1,40 @@
+*{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+}
+a{
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+}
+h1{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: cyan;
+    font-size: large;
+}
+.texto{
+    padding: 3em;
+    width: 60%;
+}
+#index img{
+    max-height: 500px;
+}
+#que_es{
+    -webkit-text-stroke-width: 0.025em;
+    -webkit-text-stroke-color: red;
+}
