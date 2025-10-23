@@ -38,3 +38,6 @@ a:hover{
     -webkit-text-stroke-width: 0.025em;
     -webkit-text-stroke-color: red;
 }
+#gifvhs{
+    border-radius: 10px;
+}
