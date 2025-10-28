@@ -1,7 +1,8 @@
 .direction-reveal__card {
-  display: inline-block;
+  display: block;
   position: relative;
   overflow: hidden;
+  
 }
 
 .direction-reveal__img {
@@ -11,7 +12,7 @@
 }
 
 .direction-reveal__overlay {
-  position: absolute;
+  position: static;
   top: 0;
   left: 0;
   width: 100%;
@@ -20,6 +21,8 @@
   color: #fff;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.6);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .direction-reveal__anim--enter, .direction-reveal__anim--leave {
@@ -170,7 +173,9 @@
   transform: rotate3d(0, 0, 0, 0);
   -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
           animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-}
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
 
 .swing--enter-top, .swing--leave-top {
   perspective-origin: center top;
@@ -1071,3 +1076,4 @@
     transform: rotateX(0) rotateY(180deg);
   }
 }
+
