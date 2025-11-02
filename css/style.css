@@ -101,6 +101,49 @@ a:hover{
   transition: all 0.3s ease-in-out;
 }
 
+/* Contenedor general */
+.galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 70vh; /* da espacio vertical */
+}
+
+/* Cada bloque de video */
+.video {
+  display: none; /* ocultos por defecto */
+}
+
+/* Botones de navegación */
+#pasarImagenIzq,
+#pasarImagenDer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 0.4em 0.6em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#pasarImagenIzq:hover,
+#pasarImagenDer:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Posiciones izquierda y derecha */
+#pasarImagenIzq {
+  left: 2%;
+}
+
+#pasarImagenDer {
+  right: 2%;
+}
 
 /*FUENTES ESPECIALES*/
 
