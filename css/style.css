@@ -88,6 +88,39 @@ a:hover{
   padding: 16px 32px;
 }
 
+.sombraBlanca {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*FUENTES ESPECIALES*/
+
+@font-face {
+  font-family: 'bloody';
+  src: url('../fonts/titulos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'terror1';
+  src: url('../fonts/titulos1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'terror2';
+  src: url('../fonts/titulos2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 { font-family: 'terror2', sans-serif}
+
+nav a { font-family: 'bloody', sans-serif}
+
 
 /*MEDIA QUERIES*/
 
@@ -109,6 +142,25 @@ a:hover{
 
     width: 100% !important;
   }
+
+  nav {
+    display: flex !important;
+    flex-wrap:wrap !important;
+    flex-direction: column !important;
+   justify-content: center !important; 
+    align-items: center !important;
+        text-align: center !important;
+
+  }
+
+  nav div  { 
+
+      padding: 1em;    
+      width: 100% !important;
+  }
+
+  header h1 {        text-align: center !important;
+ }
 
 
 
