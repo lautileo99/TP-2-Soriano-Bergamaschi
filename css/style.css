@@ -87,3 +87,33 @@ a:hover{
   font-size: 16px;
   padding: 16px 32px;
 }
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 480px) { 
+
+ #columnasHermanos, .articuloTeoria {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+
+  #columnasHermanos .col {
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+
+  .articuloTeoria p { 
+
+    width: 100% !important;
+  }
+
+
+
+
+
+
+
+}
