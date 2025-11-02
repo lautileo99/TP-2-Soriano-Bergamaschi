@@ -1,4 +1,12 @@
 
+body {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;          
+  background-position: center;    
+  background-repeat: no-repeat;    
+}
+
+
 #index{
   background-image: url("img/Local58.jpg");
   background-repeat:repeat;
