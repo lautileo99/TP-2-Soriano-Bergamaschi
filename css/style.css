@@ -125,9 +125,25 @@ a:hover{
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'horror1';
+  src: url('../fonts/horror1.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'horror2';
+  src: url('../fonts/horror2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 { font-family: 'terror2', sans-serif}
 
 nav a { font-family: 'bloody', sans-serif}
+
+.titulosTeoria { font-family: 'horror2', sans-serif}
 
 
 /*MEDIA QUERIES*/
