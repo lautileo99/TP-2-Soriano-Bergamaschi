@@ -188,7 +188,7 @@ nav a { font-family: 'bloody', sans-serif}
 
 @media (max-width: 480px) { 
 
- #columnasHermanos, .articuloTeoria {
+ #columnasHermanos, .articuloTeoria, .desarrolladores {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important; 
@@ -224,10 +224,14 @@ nav a { font-family: 'bloody', sans-serif}
   header h1 {        text-align: center !important;
  }
 
-.botonesLibro {      width: 100% !important;
-}
+  .botonesLibro {      width: 100% !important;
+  }
 
-
-
+  #juegosAlternativa img{
+    width: 100% !important;
+  }
+  #desarrolladores img{
+    width: 30% !important;
+  }
 
 }
