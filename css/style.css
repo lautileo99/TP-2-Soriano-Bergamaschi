@@ -6,11 +6,6 @@ body {
   background-repeat: no-repeat;    
 }
 
-
-#index{
-  background-image: url("img/Local58.jpg");
-  background-repeat:repeat;
-}
 *{
     font-family: "PT Sans Caption", sans-serif;
     font-weight: 400;
