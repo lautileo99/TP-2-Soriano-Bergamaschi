@@ -1,4 +1,12 @@
 
+body {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;          
+  background-position: center;    
+  background-repeat: no-repeat;    
+}
+
+
 #index{
   background-image: url("img/Local58.jpg");
   background-repeat:repeat;
@@ -88,46 +96,100 @@ a:hover{
   padding: 16px 32px;
 }
 
-/* Contenedor general */
-.galeria {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 70vh; /* da espacio vertical */
+.sombraBlanca {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
-/* Cada bloque de video */
-.video {
-  display: none; /* ocultos por defecto */
+
+/*FUENTES ESPECIALES*/
+
+@font-face {
+  font-family: 'bloody';
+  src: url('../fonts/titulos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Botones de navegación */
-#pasarImagenIzq,
-#pasarImagenDer {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: none;
-  padding: 0.4em 0.6em;
-  border-radius: 10px;
-  cursor: pointer;
+@font-face {
+  font-family: 'terror1';
+  src: url('../fonts/titulos1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-#pasarImagenIzq:hover,
-#pasarImagenDer:hover {
-  background: rgba(255, 255, 255, 0.2);
+@font-face {
+  font-family: 'terror2';
+  src: url('../fonts/titulos2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Posiciones izquierda y derecha */
-#pasarImagenIzq {
-  left: 2%;
+@font-face {
+  font-family: 'horror1';
+  src: url('../fonts/horror1.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-#pasarImagenDer {
-  right: 2%;
+@font-face {
+  font-family: 'horror2';
+  src: url('../fonts/horror2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 { font-family: 'terror2', sans-serif}
+
+nav a { font-family: 'bloody', sans-serif}
+
+.titulosTeoria { font-family: 'horror2', sans-serif}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 480px) { 
+
+ #columnasHermanos, .articuloTeoria {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+
+  #columnasHermanos .col {
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+
+  .articuloTeoria p { 
+
+    width: 100% !important;
+  }
+
+  nav {
+    display: flex !important;
+    flex-wrap:wrap !important;
+    flex-direction: column !important;
+   justify-content: center !important; 
+    align-items: center !important;
+        text-align: center !important;
+
+  }
+
+  nav div  { 
+
+      padding: 1em;    
+      width: 100% !important;
+  }
+
+  header h1 {        text-align: center !important;
+ }
+
+
+
+
+
+
+
 }
