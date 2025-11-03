@@ -188,7 +188,7 @@ nav a { font-family: 'bloody', sans-serif}
 
 @media (max-width: 480px) { 
 
- #columnasHermanos, .articuloTeoria, .desarrolladores {
+ #columnasHermanos, .articuloTeoria, .seccionDesarrolladores, .desarrolladores, .index1, .seccionAnalogica, .carrusel_medios {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important; 
@@ -209,9 +209,9 @@ nav a { font-family: 'bloody', sans-serif}
     display: flex !important;
     flex-wrap:wrap !important;
     flex-direction: column !important;
-   justify-content: center !important; 
+    justify-content: center !important; 
     align-items: center !important;
-        text-align: center !important;
+    text-align: center !important;
 
   }
 
@@ -231,6 +231,41 @@ nav a { font-family: 'bloody', sans-serif}
     width: 100% !important;
   }
   #desarrolladores img{
-    width: 30% !important;
+    width: 50% !important;
+  }
+
+  #fotoDani{
+    width: 10% !important;
+  }
+  .seccionDesarrolladores p{
+    font-size: small !important;
+    margin-top: 1em;
+  }
+
+  #carouselExample img{
+    width: 70% !important;
+    align-self: center !important;
+    padding:0 !important;
+    margin: 0 !important;
+  }
+  .texto{
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  #que_es{
+    font-size: 10vw !important;
+  }
+
+  .videoSeccion{
+    width: 70% !important;
+    margin: 0 !important;
+  }
+  #carousel1 iframe,#carousel2 iframe,#carousel3 iframe{
+    width: 80% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #carousel1 p,#carousel2 p,#carousel3 p{
+    width: 100% !important;
   }
 }
