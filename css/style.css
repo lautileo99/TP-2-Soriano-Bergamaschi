@@ -18,6 +18,9 @@ h1{
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
 }
+#gifvhs{
+  height: 50% !important;
+}
 
 a:link{
     text-decoration: none;
@@ -46,11 +49,6 @@ a:hover{
     -webkit-text-stroke-width: 0.025em;
     -webkit-text-stroke-color: red;
 }
-#gifvhs{
-    border-radius: 10px;
-}
-
-
 .contenedorOverlay {
   position: relative;
   width: auto;
