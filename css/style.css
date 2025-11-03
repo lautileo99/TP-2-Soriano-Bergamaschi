@@ -147,23 +147,10 @@ a:hover{
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'terror1';
-  src: url('../fonts/titulos1.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'terror2';
   src: url('../fonts/titulos2.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'horror1';
-  src: url('../fonts/horror1.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
