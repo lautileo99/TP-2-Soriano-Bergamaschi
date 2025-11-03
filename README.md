@@ -8,7 +8,6 @@ En este sitio, vamos a recopilar una basta cantidad de información, material, p
                             3.1) found footage
 							3.2) arg
 							3.3) vaporwave
-							3.4) terror digital
 4) formulario de contacto / asesoramiento
 5) información de los creadores del sitio
 6) crítica análisis entrevistas sobre este género 
